@@ -9,6 +9,7 @@ body {
   padding-right: 0;
   margin-top: 0;
   margin-bottom: 0;
+
 }
 html {
   scroll-behavior: smooth;
@@ -69,62 +70,7 @@ a {
     
   }
 }
-.about {
-  padding-bottom: 700px;
-  background-image: url(../imags/image-02.jpg);
-  background-size: cover;
-}
-.about .text {
-  text-align: right;
-  background-color: hsl(0deg 0% 1% / 50%);
-  width: 459px;
-  height: 700px;
-  right: 95px;
-  position: absolute;
-  padding: 15px;
-}
-@media (max-width: 767px) {
-  .about .text {
-    text-align: right;
-    background-color: hsl(0deg 0% 1% / 50%);
-    width: 459px;
-    height: 700px;
-    right: 0px;
-    position: absolute;
-    padding: 7px;
-    margin: -1px;
-  }
-}
 
-.about .text h2 {
-  font-size: 35px;
-  padding: 10px;
-  margin-top: 17px;
-  color: var(--main-color);
-}
-@media (max-width: 767px) {
-  .about .text h2 {
-    font-size: 29px;
-    
-  }
-}
-
-.about .text p {
-  line-height: 1.6;
-  font-size: 20px;
-  color: white;
-}
-@media (max-width: 767px) {
-  .about .text p {
-    line-height: 1.6;
-    font-size: 17px;
-    color: white;
-    padding-left: 81px;
-    text-align: center;
-  }
-}
-
-/* end about */
 .our {
   padding-bottom: 700px;
   background-image: url(../imags/image-03.jpg);
@@ -151,6 +97,7 @@ a {
   }
 }
 
+
 .our .text h2 {
   font-size: 35px;
   padding: 10px;
@@ -170,8 +117,53 @@ a {
   }
   
 }
-.Testimonials {
+.about {
   padding-bottom: 700px;
+  background-image: url(../imags/image-04.jpg);
+  background-size: cover;
+}
+.about .text {
+  text-align: left;
+  background-color: hsl(0deg 0% 1% / 50%);
+  width: 459px;
+  height: 700px;
+  right: 95px;
+  position: absolute;
+  padding: 15px;
+}
+@media (max-width: 767px) {
+  .about .text {
+    background-color: hsl(0deg 0% 1% / 50%);
+    width: 401px;
+    height: 700px;
+    right: 1px;
+    position: absolute;
+    padding: -13px;
+    text-align: center;
+  }
+}
+.about .text h2 {
+  font-size: 29px;
+  padding: 10px;
+  margin-top: 17px;
+  color: var(--main-color);
+}
+.about .text p {
+  font-weight: 300;
+  line-height: 1.8;
+  margin-bottom: 35px;
+  color: white;
+  font-size: 22px;
+}
+@media (max-width:767px) {
+  .about .text p{
+    padding-right: 23px;
+  }
+  
+}
+.Testimonials {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: url(../imags/image-04.jpg);
 }
 .Testimonials .row {
@@ -210,7 +202,7 @@ a {
   .Contact .row .form {
     position: absolute;
     right:2px;
-    padding: 177px 22px;
+    padding: 160px 40px;
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
@@ -246,7 +238,7 @@ a {
 }
 @media (max-width: 767px) {
   .Contact .row .copy p {
-    top: 651px;
+    top: 630px;
     position: absolute;
     color: white;
     font-size: 16px;
