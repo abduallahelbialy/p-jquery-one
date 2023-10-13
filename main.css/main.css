@@ -84,13 +84,13 @@ color: #fdff73;
 @media (max-width:767px) {
   .header p{
    position: absolute;
-    top: 62%;
-    left: 50%;
+    top: 67%;
+    left: 58%;
     transform: translate(-50%, -50%);
     z-index: 1;
     color: white;
     font-size: 29px;
-    margin: -4px;
+    margin: -24px;
   }
   
 }
