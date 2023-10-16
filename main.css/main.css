@@ -149,6 +149,11 @@ a {
     width: 345px;
     float: right;
 }
+@media (max-width:767px) {
+  .Contact .row .form{
+    padding: 20px 35px
+  }
+}
 
 .Contact .row .form h2 {
   color: #fdff73;
