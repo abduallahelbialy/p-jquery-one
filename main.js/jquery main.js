@@ -7,5 +7,7 @@ $(document).ready(function(){
         ,50
       );
     });
+    $('.header').height($(window).height())
 })
+
 
